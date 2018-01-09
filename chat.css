@@ -1,0 +1,30 @@
+.chatContainer {
+	width: 480px;
+	height: 500px;
+	border-style: solid;
+	border-color: #a9aa77;
+	border-width: 5px;
+	border-radius: 9%;
+}
+h3{
+	margin-left: 10px;
+	color: #567a00;
+}
+.chatButton {
+	padding-top: 5px;
+	margin-left: 10px;
+}
+#send{
+	color: #6a74af;
+	cursor: pointer;
+}
+.chatMessages{
+	height: 380px;
+	border-bottom: 1px solid #ddd;
+	overflow-y: scroll;
+}
+.next-message {
+	list-style-type: none;
+	border-bottom: 1px  solid #ddd
+	padding: 15px;
+}
